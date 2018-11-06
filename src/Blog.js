@@ -1,11 +1,11 @@
 import React from 'react'
 import Menu from './Menu'
 
-const App = () => (
+const Blog = () => (
   <>
-    <h1>Accueil</h1>
+    <h1>Blog</h1>
     <Menu />
   </>
 )
 
-export default App
+export default Blog

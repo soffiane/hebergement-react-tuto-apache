@@ -1,5 +1,13 @@
 # Héberger une application React sur un serveur Apache.
 
+https://www.youtube.com/watch?v=JBr3DIr3cIs&t=9s
+
+AnthoWelc utilise PlanetHoster pour heberger le site    
+Comme pour l'hebergement sur netlify, React gere le routage via React Router. Or l'herbegeur n'a acces qu'au fichier index.html
+Il faut donc ajouter un fichier specifique par type de serveur qui permet d'indiquer le routage à l'herbergeur
+En gros, on va tout rediriger vers index.html pour que ce soit l'application qui gere le routage
+Pour Apache, le fichier est .htaccess 
+
 `.htaccess`
 
 ```bash
